@@ -2,7 +2,7 @@ compile: main.cpp
 	g++ main.cpp -o stack1
 
 run: ./stack1
-	./stack1 
+	./stack1 4 5 x x x x x 4 13 3 x 5 4 x 5 5
 
 compile2: main2.cpp
 	g++ main2.cpp -o stack2
