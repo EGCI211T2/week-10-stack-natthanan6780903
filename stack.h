@@ -3,6 +3,7 @@
 #define stack_h
 #include "node.h"
 class Stack {
+private:
 	NodePtr top;
 	int size;
 public:
