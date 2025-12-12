@@ -11,6 +11,8 @@ public:
     int pop();
     Stack();
     ~Stack();
+    bool is_empty();
+
 };
 
 void Stack::push(int x){
@@ -65,3 +67,6 @@ Stack::~Stack(){
     }   
 }
 #endif
+bool Stack::is_empty(){
+   return (top == NULL);
+}
